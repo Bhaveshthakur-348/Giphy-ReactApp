@@ -1,10 +1,9 @@
 body {
-  /* background-color: antiquewhite; */
   background-color: white;
 }
-
 .header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   position: sticky;
@@ -12,48 +11,46 @@ body {
   background-color: white;
   z-index: 100;
   width: 100%;
+  margin-bottom: 5px;
 }
 .header__icon {
+  align-items: center;
   object-fit: contain;
   height: 80px;
   width: 120px;
   margin-left: 20px;
 }
 
-.header__center {
+.header__right {
   display: flex;
   flex: 1;
   align-items: center;
   max-width: fit-content;
   padding: 10px;
   height: 30px;
+  margin-bottom: 5px;
 }
 
-.header__center > input {
+.header__right > input {
   border-color: blue;
   padding: 10px;
-  width: 250px;
+  width: 150px;
   height: 35px;
   margin-right: 10px;
   border-radius: 10px;
 }
-.header__center > Button {
-  margin-right: 20px;
+.header__right > Button {
+  margin-right: 10px;
 }
 
 .gifs {
   margin: 0 auto;
-  width: 80%;
-  /* width: 60%; */
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .gif {
-  padding: 0 2px;
-}
-
-.loader {
-  color: blue;
+  padding: 2px;
 }
