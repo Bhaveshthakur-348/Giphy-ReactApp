@@ -22,4 +22,5 @@ Giphy api not send too much data they have some restriction because i add limit 
 for button : material-ui
 for infinite scroll : react-infinite-scroll-component
 for Loader : styled-components(css)
+for fetching data : axios
 
