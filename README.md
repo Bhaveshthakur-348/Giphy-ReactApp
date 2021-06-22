@@ -3,6 +3,8 @@
 ## Giphy Search App
 ### `npm start`
 
+### If you find any difficulty in axios package the install : `npm install axios`
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
